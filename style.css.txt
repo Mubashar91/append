@@ -1,0 +1,135 @@
+.text{
+  position:absolute;
+  bottom: 100px;
+  
+}
+
+.body1 {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://bootstrapmade.com/demo/templates/Append/assets/img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content appears above the background */
+  padding: 20px;
+  color: white; /* Example text color */
+}
+
+.body1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+}
+.head{
+  padding-left: 100PX;
+}
+
+.bottom-to-top {
+  position: relative;
+  width: 200px; /* Set width according to your preference */
+  height: 200px; /* Set height according to your preference */
+  border: 1px solid #ccc;
+  /* overflow: hidden; */
+  margin-bottom: 5000px;
+  left: 150px;
+  background-color: white;
+}
+.text {
+   /* Text color */
+  font-size: 24px; /* Font size */
+  text-align: center; /* Center text */
+  margin-bottom: 120px;
+  border: 1px solid black;
+  /* background-color: white; */
+}
+#hy{
+  height: 60px;
+  width: 60%;
+}
+
+#button{
+  text-align: right;
+  padding-left: 373px;
+}
+.contn{
+  background-color: grey;
+}
+
+.imgg {
+  filter: grayscale(100%);
+  transition: all 0.5s; /* corrected typo */
+  max-width: 80%;
+  padding: 40px;
+}
+
+.imgg:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  
+}
+
+
+.input-container {
+  position: relative;
+  padding-left: 0PX;
+  width: 451px; /* Set width */
+  height: 64px; /* Set height */
+  background-color: white; /* Set background color for the form */
+  border-radius: px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.signup-button {
+  background-color: red; /* Set background color for the signup button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container input[type="text"] {
+  flex: 1; /* Grow input field to fill remaining space */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.button{
+  margin-left: 400px;
+}
+.cont{
+  background-color:hsl(0, 12%, 85%) ;
+}
+.card {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  /* Add other styling properties as needed */
+  height: 338px;
+  width: 308px;
+
+}
+.card1{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.card2{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.read-more {
+  background-color: red;
+  /* Add other styling properties as needed */
+}
